@@ -133,7 +133,7 @@ def get_im_data(base_path):
 if __name__ == '__main__':
     raw_data = os.path.join('..', 'data', 'raw_sim_data')
     proc_data = os.path.join('..', 'data', 'processed_sim_data')
-
+    
     indicator_dict = get_im_data(raw_data) 
 
     out_val_dir = os.path.join(proc_data, 'validation')
